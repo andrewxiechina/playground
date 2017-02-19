@@ -44,3 +44,29 @@ nav a, nav a:visited {
 nav a.selected, nav a:hover {
   color: #32673f;
 }
+
+/* 
+   Wrapper
+*/
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  clear: both;
+}
+/*
+    Footer
+*/
+
+footer{
+  font-size: 0.7em;
+  color: lightgray;
+  text-align: center;
+  padding-top: 50px
+}
+
+footer img{
+  width: 20px;
+  height: 20px;
+  margin: 0px 5px;
+}
