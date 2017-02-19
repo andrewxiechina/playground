@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
-
+body {
+  color: #999;
+}
 header {
   background-color: #6ab47b;
   color: white;
@@ -108,4 +110,47 @@ section{
   margin: 0px;
   padding: 1em 0.3em;
   display: block;
+}
+
+/*
+  Content
+*/
+
+.col-6 {
+  float: left;
+  width: 45%;
+  padding: 2.5%;
+}
+
+.contact-info{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.contact-info li {
+  margin: 0.7em 0em;
+}
+.contact-info a{
+  text-decoration: none;
+  color: #6ab47b;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
 }
